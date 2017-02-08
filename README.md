@@ -2,6 +2,7 @@
 ## Due 02-08-2017
 
 ## Author
+Dawit Zemariam
 
 ## Description
 
@@ -41,5 +42,11 @@ Don't forget that you must have a base case for your recursive method or you wil
 | **Total**           | **100**|
 
 ## Outside Resources Used
+https://www.codeproject.com/Articles/36038/A-Simple-C-Labyrinth-Maze-Solving-Application
+http://codereview.stackexchange.com/questions/35509/optimizing-this-maze-solver
+https://www.youtube.com/watch?v=R6MbWXxZNaQ&t=121s
+https://www.cs.bu.edu/teaching/alg/maze/
+So much more
 
 ## Known Problems, Issues, And/Or Errors in the Program
+Understand the method of recusion and what the process needs. Could not match what was needed with C# language knowledge.  

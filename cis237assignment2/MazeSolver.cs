@@ -14,6 +14,11 @@ namespace cis237assignment2
     /// </summary>
     class MazeSolver
     {
+
+        //Some Constants
+        private int XTILES = 25; //Number of X tiles
+        private int YTILES = 25; //Number of Y tiles
+        private int TILESIZE = 10; //Size of the tiles (pixles)
         /// <summary>
         /// Class level memeber variable for the mazesolver class
         /// </summary>
@@ -25,7 +30,7 @@ namespace cis237assignment2
         /// Default Constuctor to setup a new maze solver.
         /// </summary>
         public MazeSolver()
-        {}
+        { }
 
 
         /// <summary>
@@ -43,6 +48,7 @@ namespace cis237assignment2
             this.yStart = yStart;
 
             //Do work needed to use mazeTraversal recursive call and solve the maze.
+            Solve(maze, xStart, yStart);
         }
 
 
@@ -51,9 +57,44 @@ namespace cis237assignment2
         /// Feel free to change the return type if you like, or pass in parameters that you might need.
         /// This is only a very small starting point.
         /// </summary>
-        private void mazeTraversal()
-        {
-            //Implement maze traversal recursive call
+        private void Solve(char[,] maze, int x, int y)
+
+            //Recursion in Psuedo Code considering I can't figure out code
+            if (maze[x, y] == /*Outside of maze*/ || maze[x, y] == X);
+            {
+            return //to current location;
+    }
+            else
+    {
+             //check right
+             if (x+1, y == ",");
+            {
+                //Step In and Change , to X
+                 PrintMaze();
+                return Solve;
+            }
+            //checks down
+            if (x, y+1 == ",");
+            {
+                //Step In and Change , to X
+                 PrintMaze();
+                return Solve;
+            }
+            //checks left
+            if (x-1, y == ",");
+            {
+                //Step In and Change , to X
+                 PrintMaze();
+                return Solve;
+            }
+            //checks up 
+            if (x, y+1 == ",");
+            {
+                //Step In and Change , to X
+                 PrintMaze();
+                return Solve;
+            }
+           }
         }
     }
 }
